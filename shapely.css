@@ -1057,11 +1057,6 @@ h6 {
 	text-transform: uppercase;
 }
 
-h5.uppercase {
-	letter-spacing: 2px;
-	margin-right: -2px;
-}
-
 p, span {
 	font-size: 19px;
 	line-height: 25px;
@@ -1074,12 +1069,13 @@ p.lead {
 
 @media all and (max-width: 767px) {
 	p.lead {
-		font-size: 13px;
-		line-height: 24px;
+		font-size: 16px;
+		line-height: 20px;
 	}
 
 	p {
-		font-size: 12px;
+		font-size: 16px;
+		line-height: 20px;
 	}
 }
 
